@@ -30,8 +30,8 @@ find_package(HDF5 1.14.6 EXACT REQUIRED COMPONENTS C)
 target_link_libraries(
         test_lib
         PUBLIC
-        ZLIB::ZLIB
         hdf5::hdf5
+        ZLIB::ZLIB
 )
 
 
